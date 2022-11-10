@@ -16,7 +16,7 @@ CYAN = Fore.CYAN
 
 list_repo = []
 def init_menu():
-    print(BRIGHT + MAGENTA + "------------- LOGICELLSTOOLS -------------")
+    print(BRIGHT + MAGENTA + "------------- XMLPARSER -------------")
     print(BRIGHT + YELLOW + "[" +MAGENTA + "1" +YELLOW + "]" +RESET + " - Ajouter header XML recursif")
     print(BRIGHT + YELLOW + "[" +MAGENTA + "2" +YELLOW + "]" +RESET + " - Rechercher un fichier du workspace")
     print(BRIGHT + YELLOW + "[" +MAGENTA + "3" +YELLOW + "]" +RESET + " - Parseur XML")
