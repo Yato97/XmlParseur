@@ -31,5 +31,8 @@ Entrer le numéro correspondant a la fonction voulue.
 
 6) **Analyseur XML Récursif** : Vérifie récursivement les fichiers XML, s'il manque le header xml ou s'il y a une erreur dans le fichier, exemple balise manquante, mal fermé etc, les chemins des fichiers sont retournés et les erreurs correspondantes
 
+
+## Aperçu 
+![xmlparser](/res/xmlparser.png)
 ## License
 Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/Yato97">@Yato97</a>.
