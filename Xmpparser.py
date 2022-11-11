@@ -75,8 +75,7 @@ def router(output):
             print(BRIGHT + YELLOW + "[" + RED + "ROOT" + YELLOW + "]" + RESET, node.tag)
             for attr, res in node.attrib.items():
                 print(BRIGHT + YELLOW + "[" + CYAN + "+" + YELLOW + "]" + RESET +" "+ CYAN + attr+ " : "+ BRIGHT +res)
-            XMLparser(node, "|-")
-            
+            XMLparser(node, "|-")    
             
     if output == "4":
         print("\n"+BRIGHT + CYAN + "------------- XML ANALYSEUR -------------"+ RESET)
